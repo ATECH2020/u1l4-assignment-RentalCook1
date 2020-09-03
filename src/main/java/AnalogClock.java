@@ -7,11 +7,14 @@ class AnalogClock {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
-         int number = scanner.nextInt();
+        System.out.println("input hour degrees past midnight")
+         int hourDegreesPast = scanner.nextInt();
       
         /*
          *  your code goes here
          */
+         int minuteDegreesPast = 12*(hourDegreesPast%30);
+         System.out.println(minuteDegreesPast);
 
         // closing the scanner object
         scanner.close();
