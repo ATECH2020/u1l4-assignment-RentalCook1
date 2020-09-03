@@ -7,8 +7,8 @@ class AnalogClock {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
-
-
+         int number = scanner.nextInt();
+      
         /*
          *  your code goes here
          */
