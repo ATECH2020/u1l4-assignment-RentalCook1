@@ -20,7 +20,7 @@ class Timestamps {
          */
           int totalSecs1 = (hours1*3600) + (minutes1*60) + seconds1 ;
           int totalSecs2 = (hours2*3600) + (minutes2*60) + seconds2 ;
-          int difference = (totalSecs1 - totalSecs2) ;
+          int difference = (totalSecs2 - totalSecs1) ;
           System.out.println(difference);
         // closing the scanner object
         scanner.close();
