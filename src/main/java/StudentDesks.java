@@ -17,7 +17,7 @@ class StudentDesks {
          int class2Desks = class2Students/2 + class2Students%2 ;
          int class3Desks = class3Students/2 + class3Students%2 ;
          int totalDesks = class1Desks + class2Desks + class3Desks ;
-         System.out.println(totalDesks);
+         System.out.print(totalDesks);
         // closing the scanner object
         scanner.close();
     }
